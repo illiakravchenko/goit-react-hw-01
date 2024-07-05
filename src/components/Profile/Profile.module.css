@@ -1,53 +1,53 @@
 .wrapper {
-  border: 3px solid #000000; /* Рамка */
-  border-radius: 8px; /* Закруглені кути */
-  max-width: 300px; /* Максимальна ширина картки */
-  margin: 20px auto; /* Центрування картки */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь */
-  overflow: hidden; /* Щоб нічого не виходило за межі */
-  background-color: #e5e4e4; /* Білий фон */
+  border: 3px solid #000000;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #f7f4f4;
 }
 
 .userCard {
-  text-align: center; /* Центрування тексту */
-  padding: 20px; /* Відступи */
+  text-align: center;
+  padding: 20px;
 }
 
 .cardImage {
-  width: 100px; /* Ширина аватарки */
-  height: 100px; /* Висота аватарки */
-  border-radius: 50%; /* Кругла форма */
-  margin: 0 auto 10px; /* Відступ знизу */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
   background-color: #2e2c2c;
 }
 
 .userName {
-  font-size: 2em; /* Розмір шрифту */
-  font-weight: bold; /* Жирний шрифт */
-  margin: 10px 0; /* Відступи */
+  font-size: 2em;
+  font-weight: bold;
+  margin: 10px 0;
 }
 
 .tag {
-  color: #6b6b6b; /* Сірий колір */
-  margin: 5px 0; /* Відступи */
+  color: #6b6b6b;
+  margin: 5px 0;
 }
 
 .location {
-  color: #6b6b6b; /* Сірий колір */
-  margin: 5px 0; /* Відступи */
+  color: #6b6b6b;
+  margin: 5px 0;
 }
 
 .statsList {
-  display: flex; /* Гнучке відображення */
-  justify-content: space-around; /* Розподілення простору між елементами */
-  border-top: 1px solid #747373; /* Верхня рамка */
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #747373;
   background-color: #c2c0c0;
   list-style: none;
 }
 
 .statsItem {
-  padding: 10px 0; /* Відступи */
-  text-align: center; /* Центрування тексту */
+  padding: 10px 0;
+  text-align: center;
   flex: 1;
   border: 1px solid#747373;
   border-bottom: none;
@@ -62,12 +62,12 @@
 }
 
 .statsLabel {
-  display: block; /* Блокове відображення */
-  color: #000000; /* Сірий колір */
+  display: block;
+  color: #000000;
   margin-bottom: 5px;
 }
 
 .statsValue {
-  font-weight: bold; /* Жирний шрифт */
+  font-weight: bold;
   font-size: 1.1em;
 }
