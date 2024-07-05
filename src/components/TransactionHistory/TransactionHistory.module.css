@@ -1,0 +1,45 @@
+.tableWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transactionHistory {
+  width: 600px;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.headRowItem,
+.headRow {
+  text-align: center;
+  padding: 12px 15px;
+}
+
+.headRowItem {
+  border: 1px solid black;
+}
+
+.headRow {
+  background-color: #3e3e3e;
+  color: #ffffff;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.body {
+  border-bottom: 1px solid #dddddd;
+}
+
+.itemValue {
+  border: 2px solid black;
+}
+.body:nth-of-type(even) {
+  background-color: #cdc6c6;
+}
+
+.body:last-of-type {
+  border-bottom: 2px solid #000000;
+}
